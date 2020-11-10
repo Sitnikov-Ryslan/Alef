@@ -1,0 +1,35 @@
+@import "helper/vars.less";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: @black;
+    margin: 0;
+    background: @white;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+@import "helper/container.less";
+@import "helper/sale.less";
+@import "blocks/header.less";
+@import "blocks/cats.less";
+@import "blocks/cats-item.less";
+@import "blocks/footer.less";
+
+
+@import "helper/hidden.less";

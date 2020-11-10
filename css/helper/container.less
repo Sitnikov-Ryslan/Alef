@@ -1,0 +1,20 @@
+// main: ../style.less
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+
+    @media @notebook {
+        max-width: 970px;
+    }
+
+    @media @tablet {
+        max-width: 700px;
+    }
+
+    @media @mobile {
+        max-width: 95%;
+    }
+}
